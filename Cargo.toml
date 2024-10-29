@@ -1,0 +1,13 @@
+[package]
+name = "koguessr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.11.5"
+poise = "0.6.1"
+tokio = { version = "1.41.0", features = ["macros", "rt-multi-thread"] }
+twgpu = "0.3.0"
+twgpu-tools = "0.3.1"
+twmap = "0.12.4"
+wgpu = "22.1.0"
